@@ -1,0 +1,216 @@
+body {
+  background: url('../../../public/reg-bckgrd.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background-color: rgb(255, 255, 255); 
+  padding: 30px;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  height: 50%;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.logo {
+  max-width: 27%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.separator-container {
+  text-align: center;
+}
+
+.separator {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin-top: 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3px;
+  margin-bottom: 0.0001px; 
+}
+
+.toggle-button {
+  background-color: #fff;
+  color: #838383;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px 4px 0px 0px;
+  border: none; 
+  margin-bottom: 0%;
+}
+
+.toggle-button:hover,
+.toggle-button.active {
+  background-color: #60c2b3;
+  color: #fff;
+}
+
+.trial-text {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #4b4b4b;
+  font-size: small;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.form-field span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 10px 5px;
+  border: 0.5px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.form-field input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-field input {
+  flex: 1;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.form-field.password input {
+  width: 90%;
+  border-radius: 0;
+}
+
+.form-field.password .eye-icon {
+  /* position: absolute; */
+  right: 10px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.icon-color {
+  color: #626263;
+  padding: 5px;
+}
+
+.form-field .error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  display: block;
+}
+
+.signIn-text {
+  text-align: center;
+  color: #393a3a;
+  font-size: 0.9em;
+  padding-top: 20px;
+}
+
+.check-box-forgot-password {
+  display: flex;
+}
+
+.remember-me-container {
+  padding-top: 10px;
+}
+
+.forgot-password-container {
+  padding: 10px 0 10px 100px;
+  color: #9fcd53;
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.forgot-password-container a {
+  color: #9fcd53;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border: none; 
+  border-radius: 4px;
+  background-color: #60c2b3;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #60c2b3;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.terms-text {
+  color: #172b4c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  padding: 20px;
+  gap: 70px;
+  justify-content: center;
+  height: auto;
+  width: 4hv;
+}
+
+input::placeholder {
+  color: #cac9c9;
+  opacity: 1; /* Ensure that the placeholder is fully opaque */
+}

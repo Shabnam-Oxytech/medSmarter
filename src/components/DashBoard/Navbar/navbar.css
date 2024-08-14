@@ -1,0 +1,84 @@
+.navbar {
+    box-shadow: none;
+    background-color: #def0ee;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: -590px;
+    margin-right: -300px;
+    z-index: 1;
+
+}
+
+.nav-menu {
+    display: flex; 
+    justify-content: flex-start;
+     width: 50%; /*Left menu takes up 70% of the width*/
+     margin-left: 350px;
+
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #336e6a;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-items li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-items li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #336e6a;
+
+}
+
+.nav-items li a img, 
+.nav-items li a svg {
+    width: 30px; /* Ensures that both icons and images are the same size */
+    height: 30px;
+}
+
+#support-icon img {
+    width: 30px; /* Ensures that the images are the same size as icons */
+    height: auto;
+}
+
+#upgrade-icon img {
+    width: 80px; /* Larger image for the upgrade icon */
+    height: auto;
+}
+
+.right-side-nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%; /* Right menu takes up 30% of the width */
+    margin-right: 50px;
+}
+
+.right-side-nav-menu .nav-items {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.right-side-nav-menu .nav-items li {
+    margin: 0 15px;
+    
+}

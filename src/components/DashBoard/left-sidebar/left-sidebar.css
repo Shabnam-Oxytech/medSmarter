@@ -1,0 +1,127 @@
+.left-sidebar {
+  z-index: 2;
+  width: 250px;
+  height: 100vh;
+  background-color: #336e6a;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.left-bar-header{
+  align-items: start;
+}
+
+
+.logo-section .favicon {
+  width: 80px;
+  height: 40px;
+  z-index: 2;
+  
+}
+
+.left-sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #336e6a;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.user-credential {
+  padding: 20px;
+  background-color: #336e6acc;
+  text-align: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-avatar {
+  background-color: #4db6ac;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.edit-profile {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.links {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.link-icon {
+  margin-right: 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  color: #9fcd53; 
+}
+
+.sidebar-link:hover .link-icon {
+  color: #9fcd53; 
+}
+
+
+.sidebar-link:hover {
+  color: #9fcd53;
+}
+
+.left-sidebar-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #336e6a;
+}
+
+.left-sidebar-footer span a {
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none; 
+}
+
+.left-sidebar-footer span a:hover {
+  color: #9fcd53;
+}
